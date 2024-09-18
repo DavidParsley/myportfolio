@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+/* Navbar */
+#nav{
+    padding: 5px;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    }
+    
+    #nav h3{
+        display: block;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:bolder;
+        color: red;
+    }
+    
+    #nav div a{
+        font-size: larger;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right:15px;
+    }
+    
+    #nav div a:hover{
+     color: rgb(255, 0, 0);
+    }
+    
+    #nav div i{
+        padding: 3px 10px;
+        color: rgb(255, 0, 0);
+        border:none;
+        font-size: 45px;
+        border-radius: 10px;
+    }
+    /* Landing */
+
+#land{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100vh;
+    width: 90vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+#land h3{
+    display: block;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color: rgb(255, 255, 255);
+}
+#land div{
+    width: 45vw;
+}
+#land .rightside{
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+#land p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fffefe;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#land button{
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 18px;
+    font-size: 16px;
+}
+#land button:hover{
+background-color: rgb(245, 0, 0);
+cursor: pointer;
+}
+#land a{
+    color: #fffefe;
+    background-color: #ff0000;
+}
+
+#land img{
+    height: 66vh;
+    align-items: center;
+    background-color: black;
+}
+
+/* About Me */
+#about h3{
+    text-align: center;
+    color: #ff0000;
+    display: block;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+#about p{
+    text-align: center;
+    color: #fffefe;
+    display: block;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color: rgb(255, 255, 255);
+}
+#about h4{
+    text-align: center;
+    color: #ff0000;
+    display:inline-block;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.item ul { 
+    padding: 0; 
+}
+
+.item li { 
+    display:table-caption; 
+    margin-right: 15px; 
+}
+
+#about .item{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color: rgb(255, 255, 255);
+
+}
+#about div a{
+    font-size: larger;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Contact Me */
+#detail{
+    display: grid;
+    grid-template-columns: auto;
+    height: 30vh;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+#detail h4{
+    text-align: center;
+    color: #ff0000;
+    display: block;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+ 
+#detail .info{
+    text-align: center;
+    color: #fffefe;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color: rgb(255, 255, 255);
+}
+#detail div a{
+        font-size: larger;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right:15px;
+    }
+    
+#detail div a:hover{
+     color: rgb(255, 0, 0);
+    } 
+
+ /* footer */
+#footer{
+        color: white;
+        padding: 88px;
+        text-align: center;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        height: 20px;
+    }
+
+#footer div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:25px;
+        size: 40px;
+    }
+    
+#footer a{
+        color: white;
+        font-style: normal;
+    
+    }
+    
+#footer a:hover{
+        color: rgb(255, 0, 0);
+    }
+    
