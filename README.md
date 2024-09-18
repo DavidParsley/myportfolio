@@ -24,6 +24,6 @@ HTML, CSS , Googlepis icons, GIT
 email :: david.kakhayanga@student.moringaschool.com
 
 ### License
-*LIcenced under the [MT-licence]()*
+*LIcenced under the [MT-licence](https://github.com/DavidParsley/myportfolio/blob/master/LICENCE.md)*
 
 Copyright (c) 2024 **David Parsley**
