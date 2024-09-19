@@ -12,7 +12,7 @@ The application includes a  landing page showing what i do, my education backgro
 * And you are all done
 
 ## Live server
-* You can view the web live on [Portfolio]()
+* You can view the web live on [Portfolio](https://davidparsley.github.io/myportfolio/)
 
 ## Known Bugs
 The application works perfectly well, no bugs.
