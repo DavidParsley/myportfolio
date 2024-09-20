@@ -93,7 +93,9 @@ cursor: pointer;
 }
 
 #land img{
-    height: 66vh;
+    height: 56vh;
+    width: 29vw;
+    border-radius: 30px;
     align-items: center;
     background-color: black;
 }
